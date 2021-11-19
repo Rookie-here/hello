@@ -11,5 +11,28 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "images/new.png",
+        "selectedIconPath": "images/new.png",
+        "pagePath": "pages/index/index"
+      },{
+        "text": "查找",
+        "iconPath": "images/find.png",
+        "selectedIconPath": "images/find.png",
+        "pagePath": "pages/logs/logs"
+      },{
+        "text": "用户",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user.png",
+        "pagePath": "pages/push/push"
+      }
+    ]
+  }
 }
